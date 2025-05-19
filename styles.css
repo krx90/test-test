@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .login-container {
+    width: 320px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);
+    text-align: center;
+  }
+  
+  .logo {
+    width: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 8px 0;
+    color: #0070ba;
+    font-size: 0.9em;
+    text-align: left;
+    text-decoration: none;
+  }
+  
+  .login-button {
+    background-color: #0070ba;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 25px;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .divider {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #666;
+    font-size: 0.9em;
+    margin: 20px 0;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #ccc;
+  }
+  
+  .divider:not(:empty)::before {
+    margin-right: 10px;
+  }
+  
+  .divider:not(:empty)::after {
+    margin-left: 10px;
+  }
+  
+  .signup-button {
+    border: 2px solid black;
+    background: white;
+    padding: 12px;
+    border-radius: 25px;
+    width: 100%;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .language-selector {
+    margin: 20px 0 10px;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  .flag {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 5px;
+  }
+  
+  footer {
+    font-size: 0.8em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
+  footer a {
+    margin: 0 5px;
+    color: #666;
+    text-decoration: none;
+  }
+  

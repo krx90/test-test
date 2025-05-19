@@ -1,25 +1,35 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PayPal Login</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-box">
-            <h2>Einloggen</h2>
-            <form>
-                <label for="email">E-Mail oder Benutzername</label>
-                <input type="text" id="email" name="email" required>
+  <div class="login-container">
+    <img src="https://www.paypalobjects.com/webstatic/icon/pp258.png" alt="PayPal Logo" class="logo">
 
-                <label for="password">Passwort</label>
-                <input type="password" id="password" name="password" required>
+    <form class="login-form">
+      <input type="text" placeholder="E-Mail-Adresse oder Handynummer" required>
+      <input type="password" placeholder="Passwort" required>
+      <a href="#" class="forgot-password">Passwort vergessen?</a>
+      <button type="submit" class="login-button">Einloggen</button>
+      <div class="divider">oder</div>
+      <button type="button" class="signup-button">Neu anmelden</button>
+    </form>
 
-                <button type="submit">Weiter</button>
-            </form>
-            <a href="#">Passwort vergessen?</a>
-        </div>
+    <div class="language-selector">
+      <img src="https://flagcdn.com/de.svg" alt="DE" class="flag">
+      <span>Deutsch</span> | <a href="#">English</a>
     </div>
+
+    <footer>
+      <a href="#">Kontakt</a>
+      <a href="#">Datenschutz</a>
+      <a href="#">AGB</a>
+      <a href="#">Weltweit</a>
+    </footer>
+  </div>
 </body>
 </html>
